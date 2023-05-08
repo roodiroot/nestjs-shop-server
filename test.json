@@ -1,0 +1,3291 @@
+{
+    "id": 1,
+    "name": "Royal Clima RCI-TWN28HN",
+    "price": 35000,
+    "logo": "0c3ec2a4-eb98-4ef3-a6e7-6e3fd6f6fff5",
+    "imges": [
+        "38dfd11f-51bc-4352-b903-32959d3aaa23",
+        "e8a29d25-299f-42a5-92e3-235f33128a54",
+        "03295dc0-1309-40c0-98b7-62c5bbce0d56",
+        "dc3a9b1e-35ec-46f5-b68a-31137f82f127",
+        "5f790e33-48f0-41d0-a48f-17a944921a1c"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 1,
+            "productId": 1,
+            "title": "Площадь помещения: м².",
+            "description": "28"
+        },
+        {
+            "id": 2,
+            "productId": 1,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 3,
+            "productId": 1,
+            "title": "Уровень шума: дб.",
+            "description": "24"
+        },
+        {
+            "id": 4,
+            "productId": 1,
+            "title": "Макс. длина трубы: м.",
+            "description": "10"
+        },
+        {
+            "id": 5,
+            "productId": 1,
+            "title": "Мощность обогрева: кВт.",
+            "description": "3.07"
+        },
+        {
+            "id": 6,
+            "productId": 1,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.82"
+        },
+        {
+            "id": 7,
+            "productId": 1,
+            "title": "Наличие WiFi:",
+            "description": "да (опция)"
+        },
+        {
+            "id": 8,
+            "productId": 1,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 9,
+            "productId": 1,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 10,
+            "productId": 1,
+            "title": "Дезодорирующий фильтр:",
+            "description": "да"
+        },
+        {
+            "id": 11,
+            "productId": 1,
+            "title": "Ионизация воздуха:",
+            "description": "да"
+        },
+        {
+            "id": 12,
+            "productId": 1,
+            "title": "Вес внутреннего блока: кг.",
+            "description": "7.5"
+        },
+        {
+            "id": 13,
+            "productId": 1,
+            "title": "Тип Фреона:",
+            "description": "R410A"
+        },
+        {
+            "id": 14,
+            "productId": 1,
+            "title": "Мин. температура за окном",
+            "description": "-15 С"
+        },
+        {
+            "id": 15,
+            "productId": 1,
+            "title": "Габариты внутреннего блока: мм",
+            "description": "715x285x194"
+        }
+    ]
+},
+{
+    "id": 2,
+    "name": "Royal Clima RCI-TWN35HN",
+    "price": 39000,
+    "logo": "72c467d9-1e48-4ec3-8a49-4731b4f6bb50",
+    "imges": [
+        "47c84bec-9a02-4109-b0d9-dd919e599c08",
+        "9ec5a682-8efa-46df-925d-42ed8d2825f6",
+        "d1b75551-442c-4106-b7c0-ddf4ff23257c",
+        "a11db19b-6beb-420a-8bf2-65a9f0bc439d",
+        "68a54ecd-6d15-4e69-a5ad-3966b9d8c15d"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 16,
+            "productId": 2,
+            "title": "Площадь помещения: м².",
+            "description": "35"
+        },
+        {
+            "id": 17,
+            "productId": 2,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 18,
+            "productId": 2,
+            "title": "Уровень шума: дб.",
+            "description": "26"
+        },
+        {
+            "id": 19,
+            "productId": 2,
+            "title": "Макс. длина трубы: м.",
+            "description": "25"
+        },
+        {
+            "id": 20,
+            "productId": 2,
+            "title": "Мощность обогрева: кВт.",
+            "description": "3.72"
+        },
+        {
+            "id": 21,
+            "productId": 2,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "3.45"
+        },
+        {
+            "id": 22,
+            "productId": 2,
+            "title": "Наличие WiFi:",
+            "description": "да (опция)"
+        },
+        {
+            "id": 23,
+            "productId": 2,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 24,
+            "productId": 2,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 25,
+            "productId": 2,
+            "title": "Дезодорирующий фильтр:",
+            "description": "да"
+        },
+        {
+            "id": 26,
+            "productId": 2,
+            "title": "Ионизация воздуха:",
+            "description": "да"
+        },
+        {
+            "id": 27,
+            "productId": 2,
+            "title": "Вес внутреннего блока: кг.",
+            "description": "7.5"
+        },
+        {
+            "id": 28,
+            "productId": 2,
+            "title": "Тип Фреона:",
+            "description": "R410A"
+        },
+        {
+            "id": 29,
+            "productId": 2,
+            "title": "Мин. температура за окном",
+            "description": "-15 С"
+        },
+        {
+            "id": 30,
+            "productId": 2,
+            "title": "Габариты внутреннего блока: мм",
+            "description": "715x285x194"
+        }
+    ]
+},
+{
+    "id": 3,
+    "name": "Royal Clima RCI-TWN22HN",
+    "price": 33000,
+    "logo": "85b4a4e9-b25f-40eb-a5a9-0e970a2da6e7",
+    "imges": [
+        "13227701-abcd-4212-a20b-d9a0ce76e6a6",
+        "e29a72c0-4536-455c-a7d8-d549a1c8398a",
+        "cf1b25ad-22e4-480b-8232-54bd5779e56f",
+        "58bb35f3-9efc-4efd-81b0-6c12b187d7ad",
+        "9f9e6090-45c4-43e5-aefe-dd25018c037d"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 31,
+            "productId": 3,
+            "title": "Площадь помещения: м².",
+            "description": "24"
+        },
+        {
+            "id": 32,
+            "productId": 3,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 33,
+            "productId": 3,
+            "title": "Уровень шума: дб.",
+            "description": "26"
+        },
+        {
+            "id": 34,
+            "productId": 3,
+            "title": "Макс. длина трубы: м.",
+            "description": "25"
+        },
+        {
+            "id": 35,
+            "productId": 3,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.6"
+        },
+        {
+            "id": 36,
+            "productId": 3,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.4"
+        },
+        {
+            "id": 37,
+            "productId": 3,
+            "title": "Наличие WiFi:",
+            "description": "да (опция)"
+        },
+        {
+            "id": 38,
+            "productId": 3,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 39,
+            "productId": 3,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 40,
+            "productId": 3,
+            "title": "Дезодорирующий фильтр:",
+            "description": "да"
+        },
+        {
+            "id": 41,
+            "productId": 3,
+            "title": "Ионизация воздуха:",
+            "description": "да"
+        },
+        {
+            "id": 42,
+            "productId": 3,
+            "title": "Вес внутреннего блока: кг.",
+            "description": "7.5"
+        },
+        {
+            "id": 43,
+            "productId": 3,
+            "title": "Тип Фреона:",
+            "description": "R410A"
+        },
+        {
+            "id": 44,
+            "productId": 3,
+            "title": "Мин. температура за окном",
+            "description": "-15 С"
+        },
+        {
+            "id": 45,
+            "productId": 3,
+            "title": "Габариты внутреннего блока: мм",
+            "description": "715x285x194"
+        }
+    ]
+},
+{
+    "id": 4,
+    "name": "Energolux SAS09B3-A/SAU09B3-A",
+    "price": 22000,
+    "logo": "453f638f-0b0b-414d-8176-3e140ced231d",
+    "imges": [
+        "86db395e-0b92-4254-8aed-11cd0cad7d64",
+        "1d3e5c2b-41ac-4634-a01b-e4a75cf26ccc",
+        "0eabb6ca-a0f0-4ab5-93ae-1e0e985948b4"
+    ],
+    "brandId": 6,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 46,
+            "productId": 4,
+            "title": "Площадь помещения: м².",
+            "description": "25"
+        },
+        {
+            "id": 47,
+            "productId": 4,
+            "title": "Класс энегроэффективности:",
+            "description": "А/А"
+        },
+        {
+            "id": 48,
+            "productId": 4,
+            "title": "Уровень шума: дб.",
+            "description": "24"
+        },
+        {
+            "id": 49,
+            "productId": 4,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.7"
+        },
+        {
+            "id": 50,
+            "productId": 4,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.4"
+        },
+        {
+            "id": 51,
+            "productId": 4,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 52,
+            "productId": 4,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 53,
+            "productId": 4,
+            "title": "Гарантия, мес.",
+            "description": "48"
+        },
+        {
+            "id": 54,
+            "productId": 4,
+            "title": "Потребляемая мощность, кВт",
+            "description": "0.82"
+        },
+        {
+            "id": 55,
+            "productId": 4,
+            "title": "Хладагент",
+            "description": "R410A"
+        },
+        {
+            "id": 351,
+            "productId": 4,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        }
+    ]
+},
+{
+    "id": 5,
+    "name": "Energolux SAS07B3-A/SAU07B3-A",
+    "price": 21000,
+    "logo": "753c33cf-14be-4e69-82b1-bcc417d7bffa",
+    "imges": [
+        "cb35fa8e-c333-413a-a621-f4a3ea524e4e",
+        "0da3fba1-e59f-4002-9172-d8cb59536dd6",
+        "b77c6366-287b-4690-bbd3-fd9acdacd959"
+    ],
+    "brandId": 6,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 56,
+            "productId": 5,
+            "title": "Площадь помещения: м².",
+            "description": "20"
+        },
+        {
+            "id": 57,
+            "productId": 5,
+            "title": "Класс энегроэффективности:",
+            "description": "А/А"
+        },
+        {
+            "id": 58,
+            "productId": 5,
+            "title": "Уровень шума: дб.",
+            "description": "24"
+        },
+        {
+            "id": 59,
+            "productId": 5,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.2"
+        },
+        {
+            "id": 60,
+            "productId": 5,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.1"
+        },
+        {
+            "id": 61,
+            "productId": 5,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 62,
+            "productId": 5,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 63,
+            "productId": 5,
+            "title": "Гарантия, мес.",
+            "description": "48"
+        },
+        {
+            "id": 64,
+            "productId": 5,
+            "title": "Потребляемая мощность, кВт",
+            "description": "0.65"
+        },
+        {
+            "id": 65,
+            "productId": 5,
+            "title": "Хладагент",
+            "description": "R410A"
+        },
+        {
+            "id": 352,
+            "productId": 5,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        }
+    ]
+},
+{
+    "id": 6,
+    "name": "Energolux SAS12B3-A/SAU12B3-A",
+    "price": 30000,
+    "logo": "733b2423-8d88-4bf3-9729-fe26f5545bda",
+    "imges": [
+        "3454b592-8113-4439-a9c2-6e5280154a27",
+        "0d258778-4257-4eaf-9238-a1ac7220e8cf",
+        "e9e0a58b-c54e-4ecf-95bd-b8b1885d78e0"
+    ],
+    "brandId": 6,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 66,
+            "productId": 6,
+            "title": "Площадь помещения: м².",
+            "description": "35"
+        },
+        {
+            "id": 67,
+            "productId": 6,
+            "title": "Класс энегроэффективности:",
+            "description": "А/А"
+        },
+        {
+            "id": 68,
+            "productId": 6,
+            "title": "Уровень шума: дб.",
+            "description": "24"
+        },
+        {
+            "id": 69,
+            "productId": 6,
+            "title": "Мощность обогрева: кВт.",
+            "description": "3.65"
+        },
+        {
+            "id": 70,
+            "productId": 6,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "3.4"
+        },
+        {
+            "id": 71,
+            "productId": 6,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 72,
+            "productId": 6,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 73,
+            "productId": 6,
+            "title": "Гарантия, мес.",
+            "description": "48"
+        },
+        {
+            "id": 74,
+            "productId": 6,
+            "title": "Потребляемая мощность, кВт",
+            "description": "1.1"
+        },
+        {
+            "id": 75,
+            "productId": 6,
+            "title": "Хладагент",
+            "description": "R410A"
+        },
+        {
+            "id": 353,
+            "productId": 6,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        }
+    ]
+},
+{
+    "id": 7,
+    "name": "Energolux SAS09G2-AI/SAU09G2-AI",
+    "price": 36000,
+    "logo": "125203e7-1b5b-4e87-8909-ebe2baa1ec80",
+    "imges": [
+        "cba706d4-8d18-4eef-946e-c2ad80d0cc2d",
+        "c1633c20-bfbb-4dc2-9a62-8c3d52a62c1e",
+        "4fef234a-b924-4428-ab06-41dd73077b36",
+        "fedd2e5b-c9f4-440b-b9c9-6ed5a6aaaed4"
+    ],
+    "brandId": 6,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 76,
+            "productId": 7,
+            "title": "Площадь помещения: м².",
+            "description": "25"
+        },
+        {
+            "id": 77,
+            "productId": 7,
+            "title": "Класс энегроэффективности:",
+            "description": "А/А"
+        },
+        {
+            "id": 78,
+            "productId": 7,
+            "title": "Уровень шума: дб.",
+            "description": "21"
+        },
+        {
+            "id": 79,
+            "productId": 7,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.6"
+        },
+        {
+            "id": 80,
+            "productId": 7,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.4"
+        },
+        {
+            "id": 81,
+            "productId": 7,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 82,
+            "productId": 7,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 83,
+            "productId": 7,
+            "title": "Гарантия, мес.",
+            "description": "60"
+        },
+        {
+            "id": 84,
+            "productId": 7,
+            "title": "Потребляемая мощность, кВт",
+            "description": "0,8"
+        },
+        {
+            "id": 85,
+            "productId": 7,
+            "title": "Хладагент",
+            "description": "R410A"
+        },
+        {
+            "id": 86,
+            "productId": 7,
+            "title": "Марка компрессора:",
+            "description": "LANDA (GREE)"
+        },
+        {
+            "id": 87,
+            "productId": 7,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        }
+    ]
+},
+{
+    "id": 8,
+    "name": "Energolux SAS12G2-AI/SAU12G2-AI",
+    "price": 42000,
+    "logo": "6c7ab492-35ae-46be-8142-6b65589c3578",
+    "imges": [
+        "8e8bf9ef-abe0-4f63-9e52-ed9d9c9f5af7",
+        "31863249-a4c5-4699-8a88-3da4cf43a336",
+        "7babb701-73a6-455d-8ec8-5b2b03f39601",
+        "6d7dd15b-6bae-4261-9866-31a05bca8d51"
+    ],
+    "brandId": 6,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 88,
+            "productId": 8,
+            "title": "Площадь помещения: м².",
+            "description": "35"
+        },
+        {
+            "id": 89,
+            "productId": 8,
+            "title": "Класс энегроэффективности:",
+            "description": "А/А"
+        },
+        {
+            "id": 90,
+            "productId": 8,
+            "title": "Уровень шума: дб.",
+            "description": "22"
+        },
+        {
+            "id": 91,
+            "productId": 8,
+            "title": "Мощность обогрева: кВт.",
+            "description": "3.2"
+        },
+        {
+            "id": 92,
+            "productId": 8,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "3.5"
+        },
+        {
+            "id": 93,
+            "productId": 8,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 94,
+            "productId": 8,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 95,
+            "productId": 8,
+            "title": "Гарантия, мес.",
+            "description": "60"
+        },
+        {
+            "id": 96,
+            "productId": 8,
+            "title": "Потребляемая мощность, кВт",
+            "description": "1.09"
+        },
+        {
+            "id": 97,
+            "productId": 8,
+            "title": "Хладагент",
+            "description": "R410A"
+        },
+        {
+            "id": 98,
+            "productId": 8,
+            "title": "Марка компрессора:",
+            "description": "LANDA (GREE)"
+        },
+        {
+            "id": 99,
+            "productId": 8,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        }
+    ]
+},
+{
+    "id": 18,
+    "name": "Energolux SAM14M1-AI/2",
+    "price": 55000,
+    "logo": "de6171ea-09c4-430d-8b39-c15683420174",
+    "imges": [
+        "8ffada3b-3d4a-4a56-ae1f-b8288a43bffe"
+    ],
+    "brandId": 6,
+    "typeId": 2,
+    "descriptions": [
+        {
+            "id": 199,
+            "productId": 18,
+            "title": "Гарантия, мес.\t ",
+            "description": "36"
+        },
+        {
+            "id": 191,
+            "productId": 18,
+            "title": "Площадь помещения: м².",
+            "description": "41"
+        },
+        {
+            "id": 192,
+            "productId": 18,
+            "title": "Класс энегроэффективности:",
+            "description": "A"
+        },
+        {
+            "id": 193,
+            "productId": 18,
+            "title": "Уровень шума: дб.",
+            "description": "57"
+        },
+        {
+            "id": 194,
+            "productId": 18,
+            "title": "Мощность обогрева: кВт.",
+            "description": "4.8"
+        },
+        {
+            "id": 195,
+            "productId": 18,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "4.1"
+        },
+        {
+            "id": 196,
+            "productId": 18,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 197,
+            "productId": 18,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 198,
+            "productId": 18,
+            "title": "Хладагент",
+            "description": "R410A  "
+        },
+        {
+            "id": 200,
+            "productId": 18,
+            "title": "Теплопроизводительность мин., кВт\t ",
+            "description": "2,1"
+        },
+        {
+            "id": 201,
+            "productId": 18,
+            "title": "Масса, кг",
+            "description": "44"
+        }
+    ]
+},
+{
+    "id": 9,
+    "name": "Energolux SAS07G2-AI/SAU07G2-AI",
+    "price": 36000,
+    "logo": "c598ef66-2b5b-4b42-8593-518b9fa1049e",
+    "imges": [
+        "f345423f-4f7a-4fb9-8851-cc6894fa240e",
+        "422f0dc0-0a3d-4ca9-be4c-cd907af68f5f",
+        "4f3fc8e0-d0e3-49ef-be92-2ab2bde4b6dd",
+        "657ac9bd-9e7d-47ab-84db-a144628927cd"
+    ],
+    "brandId": 6,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 100,
+            "productId": 9,
+            "title": "Площадь помещения: м².",
+            "description": "20"
+        },
+        {
+            "id": 101,
+            "productId": 9,
+            "title": "Класс энегроэффективности:",
+            "description": "А+/А++"
+        },
+        {
+            "id": 102,
+            "productId": 9,
+            "title": "Уровень шума: дб.",
+            "description": "21"
+        },
+        {
+            "id": 103,
+            "productId": 9,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.3"
+        },
+        {
+            "id": 104,
+            "productId": 9,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.1"
+        },
+        {
+            "id": 105,
+            "productId": 9,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 106,
+            "productId": 9,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 107,
+            "productId": 9,
+            "title": "Гарантия, мес.",
+            "description": "60"
+        },
+        {
+            "id": 108,
+            "productId": 9,
+            "title": "Потребляемая мощность, кВт",
+            "description": "0.67"
+        },
+        {
+            "id": 109,
+            "productId": 9,
+            "title": "Хладагент",
+            "description": "R410A"
+        },
+        {
+            "id": 110,
+            "productId": 9,
+            "title": "Марка компрессора:",
+            "description": "LANDA (GREE)"
+        },
+        {
+            "id": 111,
+            "productId": 9,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        }
+    ]
+},
+{
+    "id": 12,
+    "name": "Energolux SAS09M2-A1",
+    "price": 13500,
+    "logo": "f21d3bfc-68e6-4cca-b1f4-aeff6f1452e3",
+    "imges": [
+        "0f8c6ddd-03e3-4136-ae1b-714f4f53a8dd",
+        "72a26c1a-8b53-4902-8d6d-2e78b13d61d8"
+    ],
+    "brandId": 6,
+    "typeId": 3,
+    "descriptions": [
+        {
+            "id": 124,
+            "productId": 12,
+            "title": "Площадь помещения: м².",
+            "description": "25"
+        },
+        {
+            "id": 125,
+            "productId": 12,
+            "title": "Класс энегроэффективности:",
+            "description": "A++"
+        },
+        {
+            "id": 126,
+            "productId": 12,
+            "title": "Уровень шума: дб.",
+            "description": "24"
+        },
+        {
+            "id": 127,
+            "productId": 12,
+            "title": "Макс. длина трубы: м.",
+            "description": "15"
+        },
+        {
+            "id": 128,
+            "productId": 12,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.65"
+        },
+        {
+            "id": 129,
+            "productId": 12,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.55"
+        },
+        {
+            "id": 130,
+            "productId": 12,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 131,
+            "productId": 12,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 132,
+            "productId": 12,
+            "title": "Цвет",
+            "description": "белый"
+        },
+        {
+            "id": 133,
+            "productId": 12,
+            "title": "Режим работы",
+            "description": "охлаждение / обогрев"
+        },
+        {
+            "id": 134,
+            "productId": 12,
+            "title": "Тип фильтра",
+            "description": "антибактериальный"
+        }
+    ]
+},
+{
+    "id": 13,
+    "name": "Energolux SAS12M2-A1",
+    "price": 15000,
+    "logo": "a3a025b8-ffe9-4f08-bd5d-366b17fd495e",
+    "imges": [
+        "ec0a0998-6bc7-4fb7-854f-7b612c75a212",
+        "dcc724ce-2de9-4b9c-b819-30bffb193533"
+    ],
+    "brandId": 6,
+    "typeId": 3,
+    "descriptions": [
+        {
+            "id": 135,
+            "productId": 13,
+            "title": "Площадь помещения: м².",
+            "description": "20"
+        },
+        {
+            "id": 136,
+            "productId": 13,
+            "title": "Класс энегроэффективности:",
+            "description": "A++"
+        },
+        {
+            "id": 137,
+            "productId": 13,
+            "title": "Уровень шума: дб.",
+            "description": "24"
+        },
+        {
+            "id": 138,
+            "productId": 13,
+            "title": "Макс. длина трубы: м.",
+            "description": "15"
+        },
+        {
+            "id": 139,
+            "productId": 13,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.15"
+        },
+        {
+            "id": 140,
+            "productId": 13,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.05"
+        },
+        {
+            "id": 141,
+            "productId": 13,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 142,
+            "productId": 13,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 143,
+            "productId": 13,
+            "title": "Цвет",
+            "description": "белый"
+        },
+        {
+            "id": 144,
+            "productId": 13,
+            "title": "Режим работы",
+            "description": "охлаждение / обогрев"
+        },
+        {
+            "id": 145,
+            "productId": 13,
+            "title": "Тип фильтра",
+            "description": "антибактериальный"
+        },
+        {
+            "id": 146,
+            "productId": 13,
+            "title": "Гарантия:",
+            "description": "3 года"
+        }
+    ]
+},
+{
+    "id": 14,
+    "name": "Energolux SAS07M2-A1",
+    "price": 13000,
+    "logo": "612e1616-24a2-434e-a9b3-7e2cb55323e3",
+    "imges": [
+        "5319cfc4-b65e-4c90-b301-2744330c1cbf",
+        "08cba1e1-765b-4343-854d-2a35e66a21ce"
+    ],
+    "brandId": 6,
+    "typeId": 3,
+    "descriptions": [
+        {
+            "id": 147,
+            "productId": 14,
+            "title": "Площадь помещения: м².",
+            "description": "20"
+        },
+        {
+            "id": 148,
+            "productId": 14,
+            "title": "Класс энегроэффективности:",
+            "description": "A++"
+        },
+        {
+            "id": 149,
+            "productId": 14,
+            "title": "Уровень шума: дб.",
+            "description": "24"
+        },
+        {
+            "id": 150,
+            "productId": 14,
+            "title": "Макс. длина трубы: м.",
+            "description": "15"
+        },
+        {
+            "id": 151,
+            "productId": 14,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.15"
+        },
+        {
+            "id": 152,
+            "productId": 14,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.05"
+        },
+        {
+            "id": 153,
+            "productId": 14,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 154,
+            "productId": 14,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 155,
+            "productId": 14,
+            "title": "Цвет",
+            "description": "белый"
+        },
+        {
+            "id": 156,
+            "productId": 14,
+            "title": "Режим работы",
+            "description": "охлаждение / обогрев"
+        },
+        {
+            "id": 157,
+            "productId": 14,
+            "title": "Тип фильтра",
+            "description": "антибактериальный"
+        },
+        {
+            "id": 158,
+            "productId": 14,
+            "title": "Гарантия:",
+            "description": "3 года"
+        }
+    ]
+},
+{
+    "id": 15,
+    "name": "Energolux SAS07BD1-A/SAU07BD1-A",
+    "price": 25000,
+    "logo": "a6e7a267-aa37-4ce9-bff4-17465dcac0cb",
+    "imges": [
+        "9b3f7125-fef7-4f90-9f92-816f58db8acb",
+        "a43c78b5-0e21-40b9-91e7-22f89980eff4",
+        "83902b72-9c74-46a4-9d65-f2512a895089",
+        "b48865a6-a7e1-4dc0-83d4-f3ba9e16d24d"
+    ],
+    "brandId": 6,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 159,
+            "productId": 15,
+            "title": "Площадь помещения: м².",
+            "description": "22"
+        },
+        {
+            "id": 160,
+            "productId": 15,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 161,
+            "productId": 15,
+            "title": "Уровень шума: дб.",
+            "description": "27"
+        },
+        {
+            "id": 162,
+            "productId": 15,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.35"
+        },
+        {
+            "id": 163,
+            "productId": 15,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.2"
+        },
+        {
+            "id": 164,
+            "productId": 15,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 165,
+            "productId": 15,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 166,
+            "productId": 15,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 167,
+            "productId": 15,
+            "title": "Хладагент",
+            "description": "R410A  "
+        },
+        {
+            "id": 168,
+            "productId": 15,
+            "title": "Гарантия, мес.\t ",
+            "description": "36"
+        }
+    ]
+},
+{
+    "id": 16,
+    "name": "Energolux SAM21M1-AI/3",
+    "price": 70000,
+    "logo": "16b579d5-d262-4202-b6d3-c207c23554b4",
+    "imges": [
+        "f4903049-55b4-4df9-b054-71c62aa399e8"
+    ],
+    "brandId": 6,
+    "typeId": 2,
+    "descriptions": [
+        {
+            "id": 169,
+            "productId": 16,
+            "title": "Площадь помещения: м².",
+            "description": "61"
+        },
+        {
+            "id": 170,
+            "productId": 16,
+            "title": "Класс энегроэффективности:",
+            "description": "A"
+        },
+        {
+            "id": 171,
+            "productId": 16,
+            "title": "Уровень шума: дб.",
+            "description": "58"
+        },
+        {
+            "id": 172,
+            "productId": 16,
+            "title": "Мощность обогрева: кВт.",
+            "description": "6.6"
+        },
+        {
+            "id": 173,
+            "productId": 16,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "6.1"
+        },
+        {
+            "id": 174,
+            "productId": 16,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 175,
+            "productId": 16,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 176,
+            "productId": 16,
+            "title": "Хладагент",
+            "description": "R410A  "
+        },
+        {
+            "id": 177,
+            "productId": 16,
+            "title": "Гарантия, мес.\t ",
+            "description": "36"
+        },
+        {
+            "id": 178,
+            "productId": 16,
+            "title": "Теплопроизводительность мин., кВт\t ",
+            "description": "2,39"
+        },
+        {
+            "id": 179,
+            "productId": 16,
+            "title": "Масса, кг",
+            "description": "44"
+        }
+    ]
+},
+{
+    "id": 17,
+    "name": "Energolux SAM18M1-AI/2",
+    "price": 60000,
+    "logo": "7d480b8e-bd3f-4b6d-a437-718e5ac7b4be",
+    "imges": [
+        "65b0d696-ddba-4bd9-b50d-8e143bcee722"
+    ],
+    "brandId": 6,
+    "typeId": 2,
+    "descriptions": [
+        {
+            "id": 180,
+            "productId": 17,
+            "title": "Площадь помещения: м².",
+            "description": "53"
+        },
+        {
+            "id": 181,
+            "productId": 17,
+            "title": "Класс энегроэффективности:",
+            "description": "A"
+        },
+        {
+            "id": 182,
+            "productId": 17,
+            "title": "Уровень шума: дб.",
+            "description": "57"
+        },
+        {
+            "id": 183,
+            "productId": 17,
+            "title": "Мощность обогрева: кВт.",
+            "description": "5.6"
+        },
+        {
+            "id": 184,
+            "productId": 17,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "5.3"
+        },
+        {
+            "id": 185,
+            "productId": 17,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 186,
+            "productId": 17,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 187,
+            "productId": 17,
+            "title": "Хладагент",
+            "description": "R410A  "
+        },
+        {
+            "id": 188,
+            "productId": 17,
+            "title": "Гарантия, мес.\t ",
+            "description": "36"
+        },
+        {
+            "id": 189,
+            "productId": 17,
+            "title": "Теплопроизводительность мин., кВт\t ",
+            "description": "2,39"
+        },
+        {
+            "id": 190,
+            "productId": 17,
+            "title": "Масса, кг",
+            "description": "44"
+        }
+    ]
+},
+{
+    "id": 19,
+    "name": "Royal Clima ATTICA RC-AN22HN",
+    "price": 28000,
+    "logo": "b22bd919-1e23-4b07-a525-65dc6b4df6bb",
+    "imges": [
+        "d81eab64-1944-416c-bb55-3b2c522012e3",
+        "568e2ab2-fb8b-42f1-a043-42a9b83d7e65",
+        "0f8294e2-6754-4103-b35a-c1f2d8e38674",
+        "514852ff-2e74-4955-b428-30b0a5555548",
+        "dc41e67c-ed93-4206-94c1-9c2a0fe71727"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 202,
+            "productId": 19,
+            "title": "Площадь помещения: м².",
+            "description": "22"
+        },
+        {
+            "id": 203,
+            "productId": 19,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 204,
+            "productId": 19,
+            "title": "Уровень шума: дб.",
+            "description": "22"
+        },
+        {
+            "id": 205,
+            "productId": 19,
+            "title": "Мощность обогрева: кВт.",
+            "description": "0.651"
+        },
+        {
+            "id": 206,
+            "productId": 19,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "0.674"
+        },
+        {
+            "id": 207,
+            "productId": 19,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 208,
+            "productId": 19,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 209,
+            "productId": 19,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 210,
+            "productId": 19,
+            "title": "Серия",
+            "description": "Attica Nero"
+        },
+        {
+            "id": 211,
+            "productId": 19,
+            "title": "Гарантийный срок\t",
+            "description": "3 года"
+        },
+        {
+            "id": 212,
+            "productId": 19,
+            "title": "Хладагент\t",
+            "description": "R410A"
+        },
+        {
+            "id": 213,
+            "productId": 19,
+            "title": "Дисплей\t",
+            "description": "да"
+        },
+        {
+            "id": 214,
+            "productId": 19,
+            "title": "Габариты (наружный блок), мм\t",
+            "description": "45,9x71,2x27,6"
+        },
+        {
+            "id": 215,
+            "productId": 19,
+            "title": "Ночной режим\t",
+            "description": "да"
+        },
+        {
+            "id": 216,
+            "productId": 19,
+            "title": "Авторестарт\t",
+            "description": "да"
+        },
+        {
+            "id": 217,
+            "productId": 19,
+            "title": "Самоочистка внутреннего блока\t",
+            "description": "да"
+        },
+        {
+            "id": 218,
+            "productId": 19,
+            "title": "Режим работы",
+            "description": "холод/тепло"
+        },
+        {
+            "id": 354,
+            "productId": 19,
+            "title": "Цвет",
+            "description": "Черный"
+        }
+    ]
+},
+{
+    "id": 20,
+    "name": "Royal Clima ATTICA RC-AN28HN",
+    "price": 32000,
+    "logo": "fd919eaf-7a14-4698-b3a8-cddca157525f",
+    "imges": [
+        "dbaabee9-291a-4d70-90f6-d579315b1731",
+        "6efc7a4d-32db-4483-a74d-cbbc155266a1",
+        "53766e03-a2ca-4c2f-9c73-ff93a041dbf3",
+        "b5b7fea7-f318-4d7d-aa46-7610ee9b3d49",
+        "6647ec14-445d-41f0-aaab-cbd5d6292dc5"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 219,
+            "productId": 20,
+            "title": "Площадь помещения: м².",
+            "description": "28"
+        },
+        {
+            "id": 220,
+            "productId": 20,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 221,
+            "productId": 20,
+            "title": "Уровень шума: дб.",
+            "description": "22"
+        },
+        {
+            "id": 222,
+            "productId": 20,
+            "title": "Мощность обогрева: кВт.",
+            "description": "0.84"
+        },
+        {
+            "id": 223,
+            "productId": 20,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "0.8"
+        },
+        {
+            "id": 224,
+            "productId": 20,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 225,
+            "productId": 20,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 226,
+            "productId": 20,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 227,
+            "productId": 20,
+            "title": "Серия",
+            "description": "Attica Nero"
+        },
+        {
+            "id": 228,
+            "productId": 20,
+            "title": "Гарантийный срок\t",
+            "description": "3 года"
+        },
+        {
+            "id": 229,
+            "productId": 20,
+            "title": "Хладагент\t",
+            "description": "R410A"
+        },
+        {
+            "id": 230,
+            "productId": 20,
+            "title": "Дисплей\t",
+            "description": "да"
+        },
+        {
+            "id": 231,
+            "productId": 20,
+            "title": "Габариты (наружный блок), мм\t",
+            "description": "45,9x71,2x27,6"
+        },
+        {
+            "id": 232,
+            "productId": 20,
+            "title": "Ночной режим\t",
+            "description": "да"
+        },
+        {
+            "id": 233,
+            "productId": 20,
+            "title": "Авторестарт\t",
+            "description": "да"
+        },
+        {
+            "id": 234,
+            "productId": 20,
+            "title": "Самоочистка внутреннего блока\t",
+            "description": "да"
+        },
+        {
+            "id": 235,
+            "productId": 20,
+            "title": "Режим работы",
+            "description": "холод/тепло"
+        },
+        {
+            "id": 357,
+            "productId": 20,
+            "title": "Цвет",
+            "description": "Черный"
+        }
+    ]
+},
+{
+    "id": 21,
+    "name": "Royal Clima ATTICA RC-AN35HN",
+    "price": 38000,
+    "logo": "14bd4346-f78c-44ba-ba91-ea7f6bc0ab2c",
+    "imges": [
+        "7c021f12-81da-4ee6-92f8-eee02ea9211f",
+        "3886fa9f-e113-4894-896f-e634d38dfa1b",
+        "65af5bfb-8027-40d9-ba84-286b8079fa31",
+        "f1e7de94-1902-4dfb-9c09-ec034e07a31a",
+        "aa9d1b50-1862-4934-bec6-9ec36d38e439"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 236,
+            "productId": 21,
+            "title": "Площадь помещения: м².",
+            "description": "35"
+        },
+        {
+            "id": 237,
+            "productId": 21,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 238,
+            "productId": 21,
+            "title": "Уровень шума: дб.",
+            "description": "25"
+        },
+        {
+            "id": 239,
+            "productId": 21,
+            "title": "Мощность обогрева: кВт.",
+            "description": "1.120"
+        },
+        {
+            "id": 240,
+            "productId": 21,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "1.019"
+        },
+        {
+            "id": 241,
+            "productId": 21,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 242,
+            "productId": 21,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 243,
+            "productId": 21,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 244,
+            "productId": 21,
+            "title": "Серия",
+            "description": "Attica Nero"
+        },
+        {
+            "id": 245,
+            "productId": 21,
+            "title": "Гарантийный срок\t",
+            "description": "3 года"
+        },
+        {
+            "id": 246,
+            "productId": 21,
+            "title": "Хладагент\t",
+            "description": "R410A"
+        },
+        {
+            "id": 247,
+            "productId": 21,
+            "title": "Дисплей\t",
+            "description": "да"
+        },
+        {
+            "id": 248,
+            "productId": 21,
+            "title": "Габариты (наружный блок), мм\t",
+            "description": "45,9x71,2x27,6"
+        },
+        {
+            "id": 249,
+            "productId": 21,
+            "title": "Ночной режим\t",
+            "description": "да"
+        },
+        {
+            "id": 250,
+            "productId": 21,
+            "title": "Авторестарт\t",
+            "description": "да"
+        },
+        {
+            "id": 251,
+            "productId": 21,
+            "title": "Самоочистка внутреннего блока\t",
+            "description": "да"
+        },
+        {
+            "id": 252,
+            "productId": 21,
+            "title": "Режим работы",
+            "description": "холод/тепло"
+        },
+        {
+            "id": 253,
+            "productId": 21,
+            "title": "Цвет",
+            "description": "черный"
+        }
+    ]
+},
+{
+    "id": 22,
+    "name": "Royal Clima RCI-AN22HN",
+    "price": 37000,
+    "logo": "5e29d00e-70b9-4bad-891f-3ab94890d930",
+    "imges": [
+        "68db3c39-46a4-4e87-83de-052b6dc2f631",
+        "93bd554b-9c7d-4b76-a8fa-03229b245389",
+        "702d5583-4ba2-4620-a6e2-e47a1436f1f1",
+        "3e13f520-5bb5-42cd-9bf1-116d020cd64c",
+        "d3d1e88f-85fd-41b7-a24a-88809b4e9749"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 254,
+            "productId": 22,
+            "title": "Площадь помещения: м².",
+            "description": "22"
+        },
+        {
+            "id": 255,
+            "productId": 22,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 256,
+            "productId": 22,
+            "title": "Уровень шума: дб.",
+            "description": "21"
+        },
+        {
+            "id": 257,
+            "productId": 22,
+            "title": "Макс. длина трубы: м.",
+            "description": "20"
+        },
+        {
+            "id": 258,
+            "productId": 22,
+            "title": "Мощность обогрева: кВт.",
+            "description": "0,679"
+        },
+        {
+            "id": 259,
+            "productId": 22,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "0,67"
+        },
+        {
+            "id": 260,
+            "productId": 22,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 261,
+            "productId": 22,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 262,
+            "productId": 22,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 263,
+            "productId": 22,
+            "title": "Серия",
+            "description": "Attica Nero Inverter"
+        },
+        {
+            "id": 264,
+            "productId": 22,
+            "title": "Цвет",
+            "description": "черный"
+        },
+        {
+            "id": 265,
+            "productId": 22,
+            "title": "Режим работы",
+            "description": "холод/тепло"
+        },
+        {
+            "id": 266,
+            "productId": 22,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "25,5х69,8х19"
+        },
+        {
+            "id": 267,
+            "productId": 22,
+            "title": "Ночной режим\t",
+            "description": "Да"
+        },
+        {
+            "id": 268,
+            "productId": 22,
+            "title": "Предварительный фильтр",
+            "description": "Да"
+        }
+    ]
+},
+{
+    "id": 23,
+    "name": "Royal Clima RCI-AN35HN",
+    "price": 45000,
+    "logo": "a141333b-e15e-4b95-a668-da3165f95e63",
+    "imges": [
+        "028d5f62-76f4-4901-8bc6-ab55afb43c4f",
+        "a583da77-a548-4254-a991-d89c12e453a0",
+        "c9d8cd82-ad38-49e6-8a99-7b23e36442cd",
+        "475a4a18-2cf3-4ef4-93e0-1cf2d6337a14",
+        "d6e43f69-2356-4037-b9d7-5677d9d0995c"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 269,
+            "productId": 23,
+            "title": "Площадь помещения: м².",
+            "description": "35"
+        },
+        {
+            "id": 270,
+            "productId": 23,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 271,
+            "productId": 23,
+            "title": "Уровень шума: дб.",
+            "description": "21.5"
+        },
+        {
+            "id": 272,
+            "productId": 23,
+            "title": "Макс. длина трубы: м.",
+            "description": "25"
+        },
+        {
+            "id": 273,
+            "productId": 23,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.42"
+        },
+        {
+            "id": 274,
+            "productId": 23,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.18"
+        },
+        {
+            "id": 275,
+            "productId": 23,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 276,
+            "productId": 23,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 277,
+            "productId": 23,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 278,
+            "productId": 23,
+            "title": "Серия",
+            "description": "Attica Nero Inverter"
+        },
+        {
+            "id": 279,
+            "productId": 23,
+            "title": "Цвет",
+            "description": "черный"
+        },
+        {
+            "id": 280,
+            "productId": 23,
+            "title": "Режим работы",
+            "description": "холод/тепло"
+        },
+        {
+            "id": 281,
+            "productId": 23,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "25,5х69,8х19"
+        },
+        {
+            "id": 282,
+            "productId": 23,
+            "title": "Ночной режим\t",
+            "description": "Да"
+        },
+        {
+            "id": 283,
+            "productId": 23,
+            "title": "Предварительный фильтр",
+            "description": "Да"
+        }
+    ]
+},
+{
+    "id": 24,
+    "name": "Royal Clima RCI-AN28HN",
+    "price": 40000,
+    "logo": "b415bc4a-db28-4463-aa05-cae02d7d6de1",
+    "imges": [
+        "69906768-6f71-4ca4-bf5a-d29aa7d155d0",
+        "eb17a056-b45e-4432-b199-ca96a11b4245",
+        "9fb1b48e-a2b0-4273-b8d6-06ed6541d4b6",
+        "49472a9b-bfb8-4aa2-a26e-a7fe70be84af",
+        "052de637-80e8-4b6a-97f6-c8251879937d"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 284,
+            "productId": 24,
+            "title": "Площадь помещения: м².",
+            "description": "25"
+        },
+        {
+            "id": 285,
+            "productId": 24,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 286,
+            "productId": 24,
+            "title": "Уровень шума: дб.",
+            "description": "21"
+        },
+        {
+            "id": 287,
+            "productId": 24,
+            "title": "Макс. длина трубы: м.",
+            "description": "20"
+        },
+        {
+            "id": 288,
+            "productId": 24,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.42"
+        },
+        {
+            "id": 289,
+            "productId": 24,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.18"
+        },
+        {
+            "id": 290,
+            "productId": 24,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 291,
+            "productId": 24,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 292,
+            "productId": 24,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 293,
+            "productId": 24,
+            "title": "Серия",
+            "description": "Attica Nero Inverter"
+        },
+        {
+            "id": 294,
+            "productId": 24,
+            "title": "Цвет",
+            "description": "черный"
+        },
+        {
+            "id": 295,
+            "productId": 24,
+            "title": "Режим работы",
+            "description": "холод/тепло"
+        },
+        {
+            "id": 296,
+            "productId": 24,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "25,5х69,8х19"
+        },
+        {
+            "id": 297,
+            "productId": 24,
+            "title": "Ночной режим\t",
+            "description": "Да"
+        },
+        {
+            "id": 298,
+            "productId": 24,
+            "title": "Предварительный фильтр",
+            "description": "Да"
+        }
+    ]
+},
+{
+    "id": 25,
+    "name": "Royal Clima RC-GL22HN",
+    "price": 32000,
+    "logo": "ad7d886f-2869-4e7e-bade-ea427ed940b2",
+    "imges": [
+        "11f3c8d3-42dd-4567-9621-5130525cb5e4",
+        "ca157784-be70-4797-af68-e63fc33e4acc",
+        "b886edce-821d-4c8a-92ef-4baae25b96d4"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 299,
+            "productId": 25,
+            "title": "Площадь помещения: м².",
+            "description": "20"
+        },
+        {
+            "id": 300,
+            "productId": 25,
+            "title": "Класс энегроэффективности:",
+            "description": "A+/A"
+        },
+        {
+            "id": 301,
+            "productId": 25,
+            "title": "Уровень шума: дб.",
+            "description": "21"
+        },
+        {
+            "id": 302,
+            "productId": 25,
+            "title": "Макс. длина трубы: м.",
+            "description": "20"
+        },
+        {
+            "id": 303,
+            "productId": 25,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.42"
+        },
+        {
+            "id": 304,
+            "productId": 25,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.2"
+        },
+        {
+            "id": 305,
+            "productId": 25,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 306,
+            "productId": 25,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 307,
+            "productId": 25,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 308,
+            "productId": 25,
+            "title": "Серия",
+            "description": "Gloria"
+        },
+        {
+            "id": 309,
+            "productId": 25,
+            "title": "Режим работы",
+            "description": "холод/тепло"
+        },
+        {
+            "id": 310,
+            "productId": 25,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "255x698x190"
+        },
+        {
+            "id": 311,
+            "productId": 25,
+            "title": "Ионизация",
+            "description": "Да"
+        }
+    ]
+},
+{
+    "id": 26,
+    "name": "Royal Clima RC-GL35HN",
+    "price": 33000,
+    "logo": "17d53090-e9c2-4a94-b401-6d807aae7c3a",
+    "imges": [
+        "88253da3-bc88-4749-9b1e-6ed3ea3cdcc2",
+        "cf25a2db-3663-41ed-9854-806bb25a3d6c",
+        "9936e7fe-4790-454d-b172-27bbb822252f"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 312,
+            "productId": 26,
+            "title": "Площадь помещения: м².",
+            "description": "35"
+        },
+        {
+            "id": 313,
+            "productId": 26,
+            "title": "Класс энегроэффективности:",
+            "description": "A+/A"
+        },
+        {
+            "id": 314,
+            "productId": 26,
+            "title": "Уровень шума: дб.",
+            "description": "20"
+        },
+        {
+            "id": 315,
+            "productId": 26,
+            "title": "Макс. длина трубы: м.",
+            "description": "15"
+        },
+        {
+            "id": 316,
+            "productId": 26,
+            "title": "Мощность обогрева: кВт.",
+            "description": "3.7"
+        },
+        {
+            "id": 317,
+            "productId": 26,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "3.6"
+        },
+        {
+            "id": 318,
+            "productId": 26,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 319,
+            "productId": 26,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 320,
+            "productId": 26,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 321,
+            "productId": 26,
+            "title": "Серия",
+            "description": "Gloria"
+        },
+        {
+            "id": 322,
+            "productId": 26,
+            "title": "Режим работы",
+            "description": "холод/тепло"
+        },
+        {
+            "id": 323,
+            "productId": 26,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "255x698x190"
+        },
+        {
+            "id": 324,
+            "productId": 26,
+            "title": "Ионизация",
+            "description": "Да"
+        }
+    ]
+},
+{
+    "id": 27,
+    "name": "Royal Clima RC-GL55HN",
+    "price": 55000,
+    "logo": "3447ed5e-f53e-43b8-9f68-cc455d5aaf56",
+    "imges": [
+        "fe0f224d-bcc2-4f3d-8a72-6162478b17ce",
+        "34255ee4-0616-4644-9bf9-5eb05cb911ed",
+        "37236f60-746c-44b2-b30d-a1eb87d36982"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 325,
+            "productId": 27,
+            "title": "Площадь помещения: м².",
+            "description": "58"
+        },
+        {
+            "id": 326,
+            "productId": 27,
+            "title": "Класс энегроэффективности:",
+            "description": "A+/A"
+        },
+        {
+            "id": 327,
+            "productId": 27,
+            "title": "Уровень шума: дб.",
+            "description": "20"
+        },
+        {
+            "id": 328,
+            "productId": 27,
+            "title": "Макс. длина трубы: м.",
+            "description": "20"
+        },
+        {
+            "id": 329,
+            "productId": 27,
+            "title": "Мощность обогрева: кВт.",
+            "description": "4.7"
+        },
+        {
+            "id": 330,
+            "productId": 27,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "4.6"
+        },
+        {
+            "id": 331,
+            "productId": 27,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 332,
+            "productId": 27,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 333,
+            "productId": 27,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 334,
+            "productId": 27,
+            "title": "Серия",
+            "description": "Gloria"
+        },
+        {
+            "id": 335,
+            "productId": 27,
+            "title": "Режим работы",
+            "description": "холод/тепло"
+        },
+        {
+            "id": 336,
+            "productId": 27,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "292x910x205"
+        },
+        {
+            "id": 337,
+            "productId": 27,
+            "title": "Ионизация",
+            "description": "Да"
+        }
+    ]
+},
+{
+    "id": 28,
+    "name": "Royal Clima RC-GL28HN",
+    "price": 30000,
+    "logo": "fbad9e18-6ac2-4428-b92a-1fbb50910e91",
+    "imges": [
+        "33b222aa-cf9f-40de-9aa5-a5ddd854f422",
+        "f048a077-f472-491f-9192-2900472dec0a",
+        "e22e984e-f999-48ad-b756-879fceb632c9"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 339,
+            "productId": 28,
+            "title": "Класс энегроэффективности:",
+            "description": "A+/A"
+        },
+        {
+            "id": 340,
+            "productId": 28,
+            "title": "Уровень шума: дб.",
+            "description": "22"
+        },
+        {
+            "id": 341,
+            "productId": 28,
+            "title": "Макс. длина трубы: м.",
+            "description": "15"
+        },
+        {
+            "id": 342,
+            "productId": 28,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.9"
+        },
+        {
+            "id": 343,
+            "productId": 28,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.7"
+        },
+        {
+            "id": 344,
+            "productId": 28,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 345,
+            "productId": 28,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 346,
+            "productId": 28,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 347,
+            "productId": 28,
+            "title": "Серия",
+            "description": "Gloria"
+        },
+        {
+            "id": 348,
+            "productId": 28,
+            "title": "Режим работы",
+            "description": "холод/тепло"
+        },
+        {
+            "id": 349,
+            "productId": 28,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "255x698x190"
+        },
+        {
+            "id": 350,
+            "productId": 28,
+            "title": "Ионизация",
+            "description": "Да"
+        },
+        {
+            "id": 338,
+            "productId": 28,
+            "title": "Площадь помещения: м².",
+            "description": "30"
+        }
+    ]
+},
+{
+    "id": 31,
+    "name": "Royal Clima RCI-GL35HN",
+    "price": 40000,
+    "logo": "aadbe440-91bb-4db9-b97d-1817351b5072",
+    "imges": [
+        "3473ba15-38b5-4cae-8e2f-cd64012fb06f",
+        "92301996-6d9c-4243-9138-983e41da9da4",
+        "e1e22ff3-2949-44ce-b4c3-2fde497a729f",
+        "fdf9421e-0972-4555-b50d-ee14a985e8e8",
+        "5ad1b8f1-2f4e-4929-a717-0d95c113061a"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 390,
+            "productId": 31,
+            "title": "Площадь помещения: м².",
+            "description": "35"
+        },
+        {
+            "id": 391,
+            "productId": 31,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 392,
+            "productId": 31,
+            "title": "Уровень шума: дб.",
+            "description": "21.5"
+        },
+        {
+            "id": 393,
+            "productId": 31,
+            "title": "Макс. длина трубы: м.",
+            "description": "20"
+        },
+        {
+            "id": 394,
+            "productId": 31,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 395,
+            "productId": 31,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 396,
+            "productId": 31,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 397,
+            "productId": 31,
+            "title": "Серия:",
+            "description": "Gloria Inverter"
+        },
+        {
+            "id": 398,
+            "productId": 31,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "25x77,7х20,1"
+        },
+        {
+            "id": 399,
+            "productId": 31,
+            "title": "Дисплей",
+            "description": "Да"
+        },
+        {
+            "id": 400,
+            "productId": 31,
+            "title": "Ночной режим\t",
+            "description": "Да"
+        },
+        {
+            "id": 401,
+            "productId": 31,
+            "title": "Авторестарт\t",
+            "description": "Да"
+        },
+        {
+            "id": 402,
+            "productId": 31,
+            "title": "Предварительный фильтр\t",
+            "description": "Да"
+        },
+        {
+            "id": 403,
+            "productId": 31,
+            "title": "Расход воздуха (макс.), м3/ч\t",
+            "description": "550"
+        },
+        {
+            "id": 404,
+            "productId": 31,
+            "title": "Гарантийный срок\t",
+            "description": "3 года"
+        }
+    ]
+},
+{
+    "id": 29,
+    "name": "Royal Clima RCI-GL22HN",
+    "price": 32000,
+    "logo": "40c6f087-23c0-4112-b453-ffed3d8a0066",
+    "imges": [
+        "837d532c-130d-40ee-8130-3eba86fe470f",
+        "41518b77-7a4a-4524-8c32-a7521fd3d284",
+        "05176c29-0d38-41ee-95c2-184cae5f3bc0",
+        "6ecb7305-e4b0-4ed4-86fc-5c7c87061311",
+        "bdb5f052-bc90-453c-a805-32132a20f9cd"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 358,
+            "productId": 29,
+            "title": "Площадь помещения: м².",
+            "description": "22"
+        },
+        {
+            "id": 359,
+            "productId": 29,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 360,
+            "productId": 29,
+            "title": "Уровень шума: дб.",
+            "description": "21"
+        },
+        {
+            "id": 361,
+            "productId": 29,
+            "title": "Макс. длина трубы: м.",
+            "description": "20"
+        },
+        {
+            "id": 362,
+            "productId": 29,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.42"
+        },
+        {
+            "id": 363,
+            "productId": 29,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.2"
+        },
+        {
+            "id": 364,
+            "productId": 29,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 365,
+            "productId": 29,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 366,
+            "productId": 29,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 367,
+            "productId": 29,
+            "title": "Серия:",
+            "description": "Gloria Inverter"
+        },
+        {
+            "id": 368,
+            "productId": 29,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "25,5x69,8х19,0"
+        },
+        {
+            "id": 369,
+            "productId": 29,
+            "title": "Дисплей",
+            "description": "Да"
+        },
+        {
+            "id": 370,
+            "productId": 29,
+            "title": "Ночной режим\t",
+            "description": "Да"
+        },
+        {
+            "id": 371,
+            "productId": 29,
+            "title": "Авторестарт\t",
+            "description": "Да"
+        },
+        {
+            "id": 372,
+            "productId": 29,
+            "title": "Предварительный фильтр\t",
+            "description": "Да"
+        },
+        {
+            "id": 373,
+            "productId": 29,
+            "title": "Расход воздуха (макс.), м3/ч\t",
+            "description": "430"
+        }
+    ]
+},
+{
+    "id": 30,
+    "name": "Royal Clima RCI-GL28HN",
+    "price": 35000,
+    "logo": "761fba99-a9e8-4564-9c1c-2668633036ff",
+    "imges": [
+        "a32a00c9-21df-4d98-8921-3e240cc94709",
+        "dc84b393-4de1-4f7d-b3c1-8419732b1f6f",
+        "3b717fc2-7a60-4551-b3e1-1278d9a03def",
+        "e13eb826-bad1-4c4d-8faf-f1e16dc67a95",
+        "a7d9c5b6-b3f6-4c3e-9029-6bf7278e00b0"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 374,
+            "productId": 30,
+            "title": "Площадь помещения: м².",
+            "description": "28"
+        },
+        {
+            "id": 375,
+            "productId": 30,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 376,
+            "productId": 30,
+            "title": "Уровень шума: дб.",
+            "description": "21"
+        },
+        {
+            "id": 377,
+            "productId": 30,
+            "title": "Макс. длина трубы: м.",
+            "description": "20"
+        },
+        {
+            "id": 378,
+            "productId": 30,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.8"
+        },
+        {
+            "id": 379,
+            "productId": 30,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.65"
+        },
+        {
+            "id": 380,
+            "productId": 30,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 381,
+            "productId": 30,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 382,
+            "productId": 30,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 383,
+            "productId": 30,
+            "title": "Серия:",
+            "description": "Gloria Inverter"
+        },
+        {
+            "id": 384,
+            "productId": 30,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "25,5x69,8x19"
+        },
+        {
+            "id": 385,
+            "productId": 30,
+            "title": "Дисплей",
+            "description": "Да"
+        },
+        {
+            "id": 386,
+            "productId": 30,
+            "title": "Ночной режим\t",
+            "description": "Да"
+        },
+        {
+            "id": 387,
+            "productId": 30,
+            "title": "Авторестарт\t",
+            "description": "Да"
+        },
+        {
+            "id": 388,
+            "productId": 30,
+            "title": "Предварительный фильтр\t",
+            "description": "Да"
+        },
+        {
+            "id": 389,
+            "productId": 30,
+            "title": "Расход воздуха (макс.), м3/ч\t",
+            "description": "430"
+        }
+    ]
+},
+{
+    "id": 32,
+    "name": "Royal Clima RCI-GL55HN",
+    "price": 65000,
+    "logo": "a30c4a39-da6a-4a27-8cc6-03c2ea2e60b4",
+    "imges": [
+        "34ea37cf-c14a-4167-a938-edb44ffe49de",
+        "ba43ab2b-41ef-40cf-97fa-429efab58d10",
+        "2ff74a08-1dae-4460-a7f3-06729b589447",
+        "8f810fff-0031-4d69-9da2-59e6a2398dfb",
+        "4a0ebc20-250c-4a77-a63f-7b21946891c7"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 405,
+            "productId": 32,
+            "title": "Площадь помещения: м².",
+            "description": "55"
+        },
+        {
+            "id": 406,
+            "productId": 32,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 407,
+            "productId": 32,
+            "title": "Уровень шума: дб.",
+            "description": "21.5"
+        },
+        {
+            "id": 408,
+            "productId": 32,
+            "title": "Макс. длина трубы: м.",
+            "description": "20"
+        },
+        {
+            "id": 409,
+            "productId": 32,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 410,
+            "productId": 32,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 411,
+            "productId": 32,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 412,
+            "productId": 32,
+            "title": "Серия:",
+            "description": "Gloria Inverter"
+        },
+        {
+            "id": 413,
+            "productId": 32,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "29,4x91x20,6"
+        },
+        {
+            "id": 414,
+            "productId": 32,
+            "title": "Дисплей",
+            "description": "Да"
+        },
+        {
+            "id": 415,
+            "productId": 32,
+            "title": "Ночной режим\t",
+            "description": "Да"
+        },
+        {
+            "id": 416,
+            "productId": 32,
+            "title": "Авторестарт\t",
+            "description": "Да"
+        },
+        {
+            "id": 417,
+            "productId": 32,
+            "title": "Предварительный фильтр\t",
+            "description": "Да"
+        },
+        {
+            "id": 418,
+            "productId": 32,
+            "title": "Расход воздуха (макс.), м3/ч\t",
+            "description": "780"
+        },
+        {
+            "id": 419,
+            "productId": 32,
+            "title": "Гарантийный срок\t",
+            "description": "3 года"
+        }
+    ]
+},
+{
+    "id": 33,
+    "name": "Royal Clima RCI-GL70HN",
+    "price": 80000,
+    "logo": "76129681-0525-44a2-979d-efaca67bed77",
+    "imges": [
+        "34eb6159-41da-404f-a68c-27fb4471e7a3",
+        "98c1d7c9-a787-4976-b76e-ad3c1fcd39a7",
+        "affd4dfd-69f0-4ea9-b6d3-e9325ef48ae1",
+        "20e0a9be-167f-4a1f-a776-a9c81767c6c0",
+        "46373e0b-be28-47fa-b893-8115e6d5682b"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 420,
+            "productId": 33,
+            "title": "Площадь помещения: м².",
+            "description": "70"
+        },
+        {
+            "id": 421,
+            "productId": 33,
+            "title": "Класс энегроэффективности:",
+            "description": "A++/A+"
+        },
+        {
+            "id": 422,
+            "productId": 33,
+            "title": "Уровень шума: дб.",
+            "description": "21.5"
+        },
+        {
+            "id": 423,
+            "productId": 33,
+            "title": "Макс. длина трубы: м.",
+            "description": "20"
+        },
+        {
+            "id": 424,
+            "productId": 33,
+            "title": "Наличие WiFi:",
+            "description": "нет"
+        },
+        {
+            "id": 425,
+            "productId": 33,
+            "title": "Тип компрессора:",
+            "description": "инвертор"
+        },
+        {
+            "id": 426,
+            "productId": 33,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 427,
+            "productId": 33,
+            "title": "Серия:",
+            "description": "Gloria Inverter"
+        },
+        {
+            "id": 428,
+            "productId": 33,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "31,5x101x22"
+        },
+        {
+            "id": 429,
+            "productId": 33,
+            "title": "Дисплей",
+            "description": "Да"
+        },
+        {
+            "id": 430,
+            "productId": 33,
+            "title": "Ночной режим\t",
+            "description": "Да"
+        },
+        {
+            "id": 431,
+            "productId": 33,
+            "title": "Авторестарт\t",
+            "description": "Да"
+        },
+        {
+            "id": 432,
+            "productId": 33,
+            "title": "Предварительный фильтр\t",
+            "description": "Да"
+        },
+        {
+            "id": 433,
+            "productId": 33,
+            "title": "Расход воздуха (макс.), м3/ч\t",
+            "description": "1000"
+        },
+        {
+            "id": 434,
+            "productId": 33,
+            "title": "Гарантийный срок\t",
+            "description": "3 года"
+        }
+    ]
+},
+{
+    "id": 34,
+    "name": "Royal Clima RC-GR22HN",
+    "price": 26000,
+    "logo": "e6fd20aa-f1a9-47dc-a41d-85786dce789e",
+    "imges": [
+        "0a84b9f4-b41d-41df-b164-7d41b0887d21",
+        "6e57e21a-2bd6-4755-a5df-f58a2aaeb2a2",
+        "5f9feb75-9341-4548-a889-7065ed914c42",
+        "f0394f38-abc2-440e-8c5d-208b9c1d4479"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 435,
+            "productId": 34,
+            "title": "Площадь помещения: м².",
+            "description": "22"
+        },
+        {
+            "id": 436,
+            "productId": 34,
+            "title": "Класс энегроэффективности:",
+            "description": "A/A"
+        },
+        {
+            "id": 437,
+            "productId": 34,
+            "title": "Уровень шума: дб.",
+            "description": "27"
+        },
+        {
+            "id": 438,
+            "productId": 34,
+            "title": "Макс. длина трубы: м.",
+            "description": "15"
+        },
+        {
+            "id": 439,
+            "productId": 34,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.3"
+        },
+        {
+            "id": 440,
+            "productId": 34,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.25"
+        },
+        {
+            "id": 441,
+            "productId": 34,
+            "title": "Наличие WiFi:",
+            "description": "да"
+        },
+        {
+            "id": 442,
+            "productId": 34,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 443,
+            "productId": 34,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 444,
+            "productId": 34,
+            "title": "Серия",
+            "description": "Grida"
+        },
+        {
+            "id": 445,
+            "productId": 34,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "696x251x191"
+        },
+        {
+            "id": 446,
+            "productId": 34,
+            "title": "Диаметр линии газа\t",
+            "description": "3/8"
+        },
+        {
+            "id": 447,
+            "productId": 34,
+            "title": "Хладагент",
+            "description": "R410A"
+        }
+    ]
+},
+{
+    "id": 35,
+    "name": "Royal CLIMA RC-GR28HN",
+    "price": 29000,
+    "logo": "f5d398de-52f5-4f7d-bc5f-c527e2256a02",
+    "imges": [
+        "1711da50-b381-4b2f-95a2-fa276c16f964",
+        "d2dcd81d-82f7-4c99-a248-0c2323ce98df",
+        "50a69451-168a-400c-9492-9ba036fc842b",
+        "91f6539b-7621-4b85-890f-2f31c4b836b2"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 448,
+            "productId": 35,
+            "title": "Площадь помещения: м².",
+            "description": "26"
+        },
+        {
+            "id": 449,
+            "productId": 35,
+            "title": "Класс энегроэффективности:",
+            "description": "A/A"
+        },
+        {
+            "id": 450,
+            "productId": 35,
+            "title": "Уровень шума: дб.",
+            "description": "27"
+        },
+        {
+            "id": 451,
+            "productId": 35,
+            "title": "Макс. длина трубы: м.",
+            "description": "15"
+        },
+        {
+            "id": 452,
+            "productId": 35,
+            "title": "Мощность обогрева: кВт.",
+            "description": "2.65"
+        },
+        {
+            "id": 453,
+            "productId": 35,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "2.55"
+        },
+        {
+            "id": 454,
+            "productId": 35,
+            "title": "Наличие WiFi:",
+            "description": "да"
+        },
+        {
+            "id": 455,
+            "productId": 35,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 456,
+            "productId": 35,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 457,
+            "productId": 35,
+            "title": "Серия",
+            "description": "Grida"
+        },
+        {
+            "id": 458,
+            "productId": 35,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "696x251x190"
+        },
+        {
+            "id": 459,
+            "productId": 35,
+            "title": "Диаметр линии газа\t",
+            "description": "3/8"
+        },
+        {
+            "id": 460,
+            "productId": 35,
+            "title": "Хладагент",
+            "description": "R410A"
+        }
+    ]
+},
+{
+    "id": 36,
+    "name": "Royal CLIMA RC-GR35HN",
+    "price": 34000,
+    "logo": "efee198b-0027-456a-9de7-3c85060f914c",
+    "imges": [
+        "c21741ee-6f93-4dcb-b256-bcbc4ae321bc",
+        "6eee7416-0546-475c-8c0d-6e1b7053f914",
+        "13a80221-685f-4ad3-872e-eacd74d9a218",
+        "bedb00ac-34e3-45ef-a7ab-9abf3a484729"
+    ],
+    "brandId": 2,
+    "typeId": 1,
+    "descriptions": [
+        {
+            "id": 461,
+            "productId": 36,
+            "title": "Площадь помещения: м².",
+            "description": "32"
+        },
+        {
+            "id": 462,
+            "productId": 36,
+            "title": "Класс энегроэффективности:",
+            "description": "A/A"
+        },
+        {
+            "id": 463,
+            "productId": 36,
+            "title": "Уровень шума: дб.",
+            "description": "27"
+        },
+        {
+            "id": 464,
+            "productId": 36,
+            "title": "Макс. длина трубы: м.",
+            "description": "15"
+        },
+        {
+            "id": 465,
+            "productId": 36,
+            "title": "Мощность обогрева: кВт.",
+            "description": "3.4"
+        },
+        {
+            "id": 466,
+            "productId": 36,
+            "title": "Мощность охлаждения: кВт.",
+            "description": "3.25"
+        },
+        {
+            "id": 467,
+            "productId": 36,
+            "title": "Наличие WiFi:",
+            "description": "да"
+        },
+        {
+            "id": 468,
+            "productId": 36,
+            "title": "Тип компрессора:",
+            "description": "не инвертор"
+        },
+        {
+            "id": 469,
+            "productId": 36,
+            "title": "Производитель:",
+            "description": "Китай"
+        },
+        {
+            "id": 470,
+            "productId": 36,
+            "title": "Серия",
+            "description": "Grida"
+        },
+        {
+            "id": 471,
+            "productId": 36,
+            "title": "Габариты (внутренний блок), мм\t",
+            "description": "770x251x190"
+        },
+        {
+            "id": 472,
+            "productId": 36,
+            "title": "Диаметр линии газа\t",
+            "description": "3/8"
+        },
+        {
+            "id": 473,
+            "productId": 36,
+            "title": "Хладагент",
+            "description": "R410A"
+        }
+    ]
+}
+]
