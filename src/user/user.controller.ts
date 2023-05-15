@@ -39,7 +39,7 @@ export class UserController {
       },
       dto.password,
     );
-    res.cookie('jwt', jwt, { httpOnly: true });
+    res.cookie('jwt', jwt, { httpOnly: true, sameSite: 'none' });
 
     return user;
   }
