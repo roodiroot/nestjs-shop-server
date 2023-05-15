@@ -6,12 +6,13 @@ export class FilterDescriptionElementDTO {
 }
 
 export class FilteringDTO {
-  descriptionFilters: [FilterDescriptionElementDTO] | undefined;
-  brandId: number;
-  typeId: number;
-  limit: number;
-  offset: number;
-  order: [any];
+  descriptionFilters?: [FilterDescriptionElementDTO] | undefined;
+  brandId?: number;
+  typeId?: number;
+  limit?: number;
+  offset?: number;
+  order?: [any];
+  between?: [];
 }
 
 export class PaginDocumentDto {

@@ -13,6 +13,10 @@ export class DescriptionService {
     const description = await this.descRepository.create(descriptDto);
     return description;
   }
+  async destroy(id: number) {
+    const description = await this.descRepository.destroy({ where: { id } });
+    return description;
+  }
 
   async getAll() {
     const desces = await this.descRepository.findAll({

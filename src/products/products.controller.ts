@@ -7,31 +7,27 @@ import {
   UseGuards,
   UploadedFiles,
   UseInterceptors,
-  ParseFilePipe,
-  FileTypeValidator,
-  MaxFileSizeValidator,
   Put,
+  Delete,
+  Query,
+  Req,
 } from '@nestjs/common';
-import { ProductDto, UpdateDto } from './dto/create-product.dto';
+import { ProductDto, UpdateDescDTO, UpdateDto } from './dto/create-product.dto';
 import { ProductsService } from './products.service';
-import { Roles } from 'src/auth/roles-auth.decorator';
-import { RoleGuard } from 'src/auth/role.guard';
-import {
-  FileInterceptor,
-  FileFieldsInterceptor,
-} from '@nestjs/platform-express';
+import { FileFieldsInterceptor } from '@nestjs/platform-express';
 import { PaginDocumentDto } from './dto/pagin-document';
+import { JwtAuthGuard } from 'src/user/jwt-auth.guard';
+import { Request } from 'express';
 
 @Controller('products')
 export class ProductsController {
   constructor(private productService: ProductsService) {}
 
   // ================ создание продукта =================================
-  // @Roles('ADMIN')
-  // @UseGuards(RoleGuard)
+  @UseGuards(JwtAuthGuard)
   @UseInterceptors(
     FileFieldsInterceptor([
-      { name: 'imges', maxCount: 5 },
+      { name: 'imges', maxCount: 7 },
       { name: 'logo', maxCount: 1 },
     ]),
   )
@@ -39,14 +35,12 @@ export class ProductsController {
   creatProduct(
     @Body() productDto: ProductDto,
     @UploadedFiles()
-    files: // new ParseFilePipe({
-    //   validators: [new FileTypeValidator({ fileType: 'image/jpeg' })],
-    // }),
-    { imges: Express.Multer.File[]; logo: Express.Multer.File },
+    files: { imges: Express.Multer.File[]; logo: Express.Multer.File },
   ) {
     return this.productService.create(productDto, files);
   }
-  // ================ изменение продукта =================================
+  // ================ изменение продукта IMG =================================
+  @UseGuards(JwtAuthGuard)
   @UseInterceptors(
     FileFieldsInterceptor([
       { name: 'imges', maxCount: 7 },
@@ -62,11 +56,36 @@ export class ProductsController {
     return this.productService.update(dto, files);
   }
 
-  // ================ вывод всего списка продуктов =======================
+  // =================== ИЗМЕНЕНИЕ ОСНОВНЫХ ХАРАКТЕРИСТИК ПРОДУКТА ===============
+  @UseGuards(JwtAuthGuard)
+  @Put('change')
+  changeProduct(@Body() dto: UpdateDto) {
+    return this.productService.updateMainProd(dto);
+  }
 
+  // =================== ИЗМЕНЕНИЕ DESCRIPTIONS ПРОДУКТА ===============
+  @UseGuards(JwtAuthGuard)
+  @Put('change/descriptions')
+  changeDescriptionsProduct(@Body() dto: UpdateDescDTO) {
+    return this.productService.updateDescriptionsProd(dto);
+  }
+  // =================== УДАЛЕНИЕ ПРОДУКТА ===============
+  @UseGuards(JwtAuthGuard)
+  @Delete('destroy/:id')
+  destroyProduct(@Param() params) {
+    return this.productService.dropProduct(params.id);
+  }
+
+  // ================ вывод всего списка продуктов =======================
   @Post('pagin')
   getAllProducts(@Body() dto: PaginDocumentDto) {
     return this.productService.getAllProducts(dto);
+  }
+  // ================ вывод запроса поиска =======================
+  @Get('search')
+  getAllProductsSearch(@Req() req: Request) {
+    const { search } = req.query;
+    return this.productService.getAllProductsSearch(search);
   }
 
   // ================ вывод одного конкретного продукта ==================

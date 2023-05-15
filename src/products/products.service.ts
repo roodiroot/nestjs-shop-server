@@ -1,21 +1,20 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/sequelize';
 import { Description } from 'src/description/model/description.model';
-import { ProductDto, UpdateDto } from './dto/create-product.dto';
+import { ProductDto, UpdateDescDTO, UpdateDto } from './dto/create-product.dto';
 import { Products } from './models/products.model';
 import { FilesService } from 'src/files/files.service';
 import { DescriptionService } from 'src/description/description.service';
 import { CreateDescriptonDto } from 'src/description/dto/create-description.dto';
 import { PaginDocumentDto } from './dto/pagin-document';
-import { FindOptions, Op, WhereOptions } from 'sequelize';
-import { Sequelize } from 'sequelize-typescript';
-import { filter } from 'rxjs';
+import { Op } from 'sequelize';
 
 @Injectable()
 export class ProductsService {
   constructor(
     @InjectModel(Description) private descrRepository: typeof Description,
-    @InjectModel(Products) private prodRepository: typeof Products,
+    @InjectModel(Products)
+    private prodRepository: typeof Products,
     private fileService: FilesService,
     private descriptionService: DescriptionService,
   ) {}
@@ -46,9 +45,7 @@ export class ProductsService {
           );
         }
       }
-
       const { logoName, imgesArray } = await this.fileService.createFile(files);
-
       const product = await this.prodRepository.create({
         ...productDto,
         logo: logoName,
@@ -58,17 +55,24 @@ export class ProductsService {
       if (productDto.descriptions) {
         const info = JSON.parse(productDto.descriptions);
         await info.forEach((el) => {
-          const payload: CreateDescriptonDto = {
-            productId: product.id,
-            title: el.title,
-            description: el.description,
-          };
-          this.descriptionService.create(payload);
+          try {
+            const payload: CreateDescriptonDto = {
+              productId: product.id,
+              title: el.title,
+              description: el.description,
+            };
+            this.descriptionService.create(payload);
+          } catch (error) {
+            throw new HttpException(
+              'не верный формат загруженных файлов в карусель',
+              HttpStatus.INTERNAL_SERVER_ERROR,
+            );
+          }
         });
       }
-
       return product;
     } catch (error) {
+      console.log(error);
       throw new HttpException(
         'ошибка при загрузке файлов...',
         HttpStatus.INTERNAL_SERVER_ERROR,
@@ -77,97 +81,102 @@ export class ProductsService {
   }
 
   async update(dto: UpdateDto, file: any) {
-    console.log(dto.id);
-    if (file.logo && file.imges) {
-      const { logoName, imgesArray } = await this.fileService.createFile(file);
-      const product = this.prodRepository.update(
-        { imges: imgesArray, logo: logoName },
-        { where: { id: dto.id } },
+    try {
+      if (file.logo && file.imges) {
+        const { logoName, imgesArray } = await this.fileService.createFile(
+          file,
+        );
+        const product = this.prodRepository.update(
+          { imges: imgesArray, logo: logoName },
+          { where: { id: dto.id } },
+        );
+        return product;
+      }
+    } catch (error) {
+      throw new HttpException(
+        'ошибка при изменении картинок в товаре',
+        HttpStatus.INTERNAL_SERVER_ERROR,
       );
-      return product;
     }
   }
 
-  async fetchAll(dto: PaginDocumentDto) {
+  async updateMainProd(dto) {
+    const { id, ...result } = dto;
     try {
-      const filters: any = dto.filtering;
-      let productIdArray = [];
-      let options: FindOptions<Products> = { include: { all: true } };
+      await this.prodRepository.update(
+        { ...result },
+        { where: { id: dto.id } },
+      );
+      return { message: 'success' };
+    } catch (error) {
+      throw new Error('ошибка изменения информацц о продукте!!!');
+    }
+  }
 
-      if (filters.descriptionFilters.length) {
-        // ЕСЛИ ФИЛЬТР ИЗ ТАБЛИЦЫ DESCRIPTION ПРИХОДЯТ НЕСКОЛЬКО
-        if (filters.descriptionFilters.length > 1) {
-          console.log(`несколько фильтров`);
-          const params = filters.descriptionFilters.map((i) => ({
-            title: { [Op.iLike]: `${i.title}%` },
-            description: { [Op.iLike]: `${i.description[0]}%` },
-          }));
-
-          // { [Op.iLike]: `${i.description}%` }
-
-          const descriptions = await this.descrRepository.findAll({
-            attributes: ['productId'],
-            where: {
-              [Op.or]: params,
-            },
-          });
-
-          const productsIdList = descriptions.map((i) => i.productId);
-
-          const result = productsIdList.reduce((acc, el) => {
-            acc[el] = (acc[el] || 0) + 1;
-            return acc;
-          }, {});
-
-          for (let key in result) {
-            if (result[key] === 2) {
-              productIdArray.push(Number(key));
-            }
+  async updateDescriptionsProd(dto: any) {
+    try {
+      // ОБНОВЛЕНИЕ ИНФОРМАЦИИ
+      if (dto.updateInfo.length) {
+        await dto.updateInfo.forEach((i) => {
+          try {
+            this.descrRepository.update(
+              { title: i.title, description: i.description },
+              { where: { id: i.id } },
+            );
+          } catch (error) {
+            console.log(error);
+            throw new Error('ошибка ОБНОВЛЕНИЕ ИНФОРМАЦИИ');
           }
-          // ЕСЛИ ФИЛЬТР ИЗ ТАБЛИЦЫ DESCRIPTION ПРИХОДЕТ ОДИН
-        } else {
-          console.log(`один фильтр`);
-          const options = {
-            title: { [Op.iLike]: `${filters.descriptionFilters[0].title}%` },
-            description: {
-              [Op.iLike]: `${filters.descriptionFilters[0].description[0]}%`,
-            },
-          };
-
-          console.log(options);
-          const descriptions = await this.descrRepository.findAll({
-            attributes: ['productId'],
-            where: options,
-          });
-
-          productIdArray = descriptions.map((i) => i.productId);
-        }
-        if (!productIdArray.length) {
-          options.where = [{ id: 0 }];
-        }
-        options.where = [{ ...options.where, id: productIdArray }];
+        });
       }
-
-      const products = this.prodRepository.findAll(options);
-
-      return products;
-    } catch (error) {}
-    return { message: 'Ошибка во время обращения к базе!' };
+      // ДОБОВЛЕНИЕ ИНФОРМАЦИИ
+      if (dto.newInfo.length) {
+        await dto.newInfo.forEach((i) => {
+          try {
+            const payload: CreateDescriptonDto = {
+              productId: Number(i.productId),
+              title: i.title.trim(),
+              description: i.description.trim(),
+            };
+            this.descriptionService.create(payload);
+          } catch (error) {
+            console.log(error);
+            throw new Error('ошибка ДОБОВЛЕНИЕ ИНФОРМАЦИИ');
+          }
+        });
+      }
+      // УДАЛЕНИЕ ИНФОРМАЦИИ
+      if (dto.dropRow.length) {
+        try {
+          await dto.dropRow.forEach((i: number) => {
+            this.descriptionService.destroy(i);
+          });
+        } catch (error) {
+          console.log(error);
+          throw new Error('ошибка УДАЛЕНИЕ ИНФОРМАЦИИ');
+        }
+      }
+      return { message: 'success' };
+    } catch (error) {
+      console.log(error);
+      throw new Error('ошибка загрузки данных общая');
+    }
   }
 
   async getAllProducts(dto: PaginDocumentDto) {
     try {
-      const filters = dto.filtering;
-      const brandId = filters.brandId;
-      const typeId = filters.typeId;
-      const limit = filters.limit;
-      const offset = filters.offset;
-      const order = filters.order;
+      const filters = dto?.filtering;
+      const brandId = filters?.brandId;
+      const typeId = filters?.typeId;
+      const limit = filters?.limit;
+      const offset = filters?.offset;
+      const order = filters?.order;
+      const BETWEENprice = filters?.between; // [100, 30000]
 
       let options: any = { include: { all: true }, where: {} };
 
       // ЕСЛИ ПРИШЛИ ФИЛЬТРЫ В МАССИВЕ "descriptionFilters"
-      if (filters?.descriptionFilters.length || !filters.descriptionFilters) {
+      if (filters?.descriptionFilters?.length) {
         let productIdArray = [];
         let descriptionsFilterList = {
           attributes: ['productId'],
@@ -179,7 +188,7 @@ export class ProductsService {
           const title = filters.descriptionFilters[i].title;
           let descriprion = { [Op.or]: [] };
           filters.descriptionFilters[i].description.map((l) => {
-            descriprion[Op.or].push({ [Op.iLike]: `${l}` });
+            descriprion[Op.or].push({ [Op.iLike]: `${l}%` });
           });
           filterOneObj.title = { [Op.iLike]: `${title}%` };
           filterOneObj.description = descriprion;
@@ -214,19 +223,46 @@ export class ProductsService {
       options.order = order || [['price', 'ASC']];
       if (Number(brandId)) options.where.brandId = brandId;
       if (Number(typeId)) options.where.typeId = typeId;
-
-      const products = this.prodRepository.findAndCountAll(options);
-      return products;
+      if (BETWEENprice) options.where.price = { [Op.between]: BETWEENprice };
+      return await this.prodRepository.findAndCountAll(options);
     } catch (error) {
-      return error;
+      console.log(error);
+      throw new HttpException(
+        'ошибка в фильте товаров',
+        HttpStatus.INTERNAL_SERVER_ERROR,
+      );
     }
+  }
+
+  async getAllProductsSearch(search: any) {
+    if (!search.length || search.length < 3) {
+      throw new HttpException(
+        'введите не менее 3х символов для поиска',
+        HttpStatus.INTERNAL_SERVER_ERROR,
+      );
+    }
+    const resultSearchName = await this.prodRepository.findAndCountAll({
+      where: {
+        name: { [Op.iLike]: `%${search}%` },
+      },
+    });
+    const resultSearchVendorcode = await this.prodRepository.findAndCountAll({
+      where: {
+        vendorcode: { [Op.iLike]: `%${search}%` },
+      },
+    });
+    const count = resultSearchName.count + resultSearchVendorcode.count;
+    const result = [...resultSearchName.rows, ...resultSearchVendorcode.rows];
+    const rows = [...new Set([...result])];
+
+    return { count, rows };
   }
 
   async getOne(id: number) {
     try {
       const product = await this.prodRepository.findOne({
         where: { id },
-        include: { all: true },
+        include: { model: Description, order: [['title', 'ASC']] },
       });
       const views = product.numberOfViews + 1;
       await this.prodRepository.update(
@@ -236,6 +272,23 @@ export class ProductsService {
       return product;
     } catch (error) {
       return error;
+    }
+  }
+
+  async dropProduct(id: number) {
+    try {
+      if (isNaN(Number(id))) {
+        throw new Error();
+      }
+      await this.descrRepository.destroy({ where: { productId: id } });
+      await this.prodRepository.destroy({ where: { id } });
+      return { message: `товар с id ${id} успешно удален` };
+    } catch (error) {
+      console.log(error);
+      throw new HttpException(
+        'id - должно быть числом',
+        HttpStatus.INTERNAL_SERVER_ERROR,
+      );
     }
   }
 }

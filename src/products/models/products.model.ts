@@ -27,6 +27,9 @@ export class Products extends Model<Products, ProductCreationAtrr> {
   @Column({ type: DataType.STRING, unique: true })
   name: string;
 
+  @Column({ type: DataType.STRING, unique: true, allowNull: false })
+  vendorcode: string;
+
   @ForeignKey(() => Brand)
   brandId: number;
 

@@ -1,4 +1,5 @@
 import { IsString, Length, IsNumber } from 'class-validator';
+import { CreateDescriptonDto } from 'src/description/dto/create-description.dto';
 import { Description } from 'src/description/model/description.model';
 
 export class ProductDto {
@@ -17,8 +18,15 @@ export class ProductDto {
 
   descriptions: any;
 }
+
 export class UpdateDto {
+  @IsNumber()
   id: number;
+
   name: string;
   price: number;
+}
+
+export class UpdateDescDTO {
+  listUpdate: CreateDescriptonDto[];
 }

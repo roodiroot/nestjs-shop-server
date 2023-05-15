@@ -4,13 +4,17 @@ import { UserRole } from './user_role.model';
 
 interface UserCreatAttr {
   email: string;
+  username: string;
   password: string;
 }
 
 @Table({ tableName: 'users', updatedAt: false, createdAt: false })
 export class User extends Model<User, UserCreatAttr> {
-  @Column
+  @Column({ unique: true, allowNull: false })
   email: string;
+
+  @Column({ allowNull: false })
+  username: string;
 
   @Column
   password: string;

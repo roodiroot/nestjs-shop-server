@@ -1,22 +1,69 @@
-import { Controller, Post, Get, Body, UseGuards } from '@nestjs/common';
+import {
+  Controller,
+  Post,
+  Get,
+  Body,
+  UseGuards,
+  Res,
+  Req,
+  UnauthorizedException,
+} from '@nestjs/common';
+import { JwtService } from '@nestjs/jwt/dist';
+
 import { CreateUserDto } from './dto/create-user.dto';
 import { UserService } from './user.service';
-import { Roles } from 'src/auth/roles-auth.decorator';
-import { RoleGuard } from 'src/auth/role.guard';
+import { Response, Request } from 'express';
+import { AuthUserDto } from './dto/auth-user.dto';
+import { JwtAuthGuard } from './jwt-auth.guard';
 
 @Controller('user')
 export class UserController {
-  constructor(private userService: UserService) {}
+  constructor(
+    private userService: UserService,
+    private jwtService: JwtService,
+  ) {}
 
-  @Post()
-  create(@Body() userDto: CreateUserDto) {
-    return this.userService.create(userDto);
+  // @Post('register')
+  // async create(@Body() userDto: CreateUserDto) {
+  //   return await this.userService.create(userDto);
+  // }
+
+  @Post('login')
+  async login(
+    @Body() dto: AuthUserDto,
+    @Res({ passthrough: true }) res: Response,
+  ) {
+    const { jwt, user } = await this.userService.login(
+      {
+        where: { email: dto.email },
+      },
+      dto.password,
+    );
+    res.cookie('jwt', jwt, { httpOnly: true });
+
+    return user;
   }
 
-  @Roles('ADMIN')
-  @UseGuards(RoleGuard)
-  @Get('/all')
-  getAllUsers() {
-    return this.userService.getAllUsers();
+  @Get('profile')
+  async profile(@Req() req: Request) {
+    try {
+      const cookie = req.cookies['jwt'];
+      const data = await this.jwtService.verifyAsync(cookie);
+      if (!data) {
+        throw new UnauthorizedException();
+      }
+      const user = await this.userService.findOne({ where: { id: data.id } });
+      return { id: user.id, email: user.email, username: user.username };
+    } catch (error) {
+      throw new UnauthorizedException();
+    }
+  }
+
+  @Post('logout')
+  async logout(@Res({ passthrough: true }) res: Response) {
+    res.clearCookie('jwt');
+    return {
+      message: 'success',
+    };
   }
 }
