@@ -173,7 +173,7 @@ export class ProductsService {
       const order = filters?.order;
       const BETWEENprice = filters?.between; // [100, 30000]
 
-      let options: any = { include: { all: true }, where: {} };
+      let options: any = { where: {} };
 
       // ЕСЛИ ПРИШЛИ ФИЛЬТРЫ В МАССИВЕ "descriptionFilters"
       if (filters?.descriptionFilters?.length) {
@@ -224,7 +224,10 @@ export class ProductsService {
       if (Number(brandId)) options.where.brandId = brandId;
       if (Number(typeId)) options.where.typeId = typeId;
       if (BETWEENprice) options.where.price = { [Op.between]: BETWEENprice };
-      return await this.prodRepository.findAndCountAll(options);
+      const { count } = await this.prodRepository.findAndCountAll(options);
+      options.include = { all: true };
+      const data = await this.prodRepository.findAll(options);
+      return { count, rows: data };
     } catch (error) {
       console.log(error);
       throw new HttpException(
@@ -262,7 +265,7 @@ export class ProductsService {
     try {
       const product = await this.prodRepository.findOne({
         where: { id },
-        include: { model: Description, order: [['title', 'ASC']] },
+        include: { all: true },
       });
       const views = product.numberOfViews + 1;
       await this.prodRepository.update(
