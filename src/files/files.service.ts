@@ -22,7 +22,8 @@ export class FilesService {
   private async changeFile(file: any, folder: string) {
     try {
       //Проверка наличия всех папок на пути и создание если таковых нет
-      const filePath = path.resolve(__dirname, '..', 'static', folder);
+      const filePath = path.resolve(__dirname, '..', '..', 'static', folder);
+      console.log(filePath);
       if (!fs.existsSync(filePath)) {
         fs.mkdirSync(filePath, { recursive: true });
       }

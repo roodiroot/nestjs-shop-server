@@ -40,7 +40,7 @@ import { MailerModule } from '@nestjs-modules/mailer';
       },
     }),
     ServeStaticModule.forRoot({
-      rootPath: path.resolve(__dirname, 'static'),
+      rootPath: path.resolve(__dirname, '..', 'static'),
     }),
     SequelizeModule.forRoot({
       dialect: 'postgres',

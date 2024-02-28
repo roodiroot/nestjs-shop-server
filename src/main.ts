@@ -8,7 +8,12 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors({
     credentials: true,
-    origin: [process.env.WEBSITE, process.env.WEBSITE2],
+    origin: [
+      'http://admin.kondish.su',
+      'https://kondish.su',
+      process.env.WEBSITE,
+      process.env.WEBSITE2,
+    ],
   });
   app.use(cookieParser());
   app.useGlobalPipes(new ValidationPipe());
